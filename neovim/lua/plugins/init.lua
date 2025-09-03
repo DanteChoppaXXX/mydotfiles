@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    -- event = 'BufWritePre', -- uncomment for format on save
+    event = 'BufWritePre', -- uncomment for format on save
     opts = require "configs.conform",
   },
 
@@ -13,6 +13,20 @@ return {
     end,
   },
 
+  -- vim.api.nvim_create_user_command(
+  --     "TestServer",
+  --     function()
+  --       vim.cmd("term | split | split")
+  --     end,
+  --     {}
+  --   )
+  --
+  -- {
+  --     vim.cmd("hi Normal guibg=NONE ctermbg=NONE"),
+  --     vim.cmd("hi NormalFloat guibg=NONE ctermbg=NONE"),
+  -- },
+
+  --
   -- test new blink
   { import = "nvchad.blink.lazyspec" },
   { 
@@ -21,18 +35,6 @@ return {
     config = true,
 
     require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/lua/snippets" })
-  },
-
- 
-
-  {
-  	"nvim-treesitter/nvim-treesitter",
-  	opts = {
-  		ensure_installed = {
-  			"vim", "lua", "vimdoc",
-       "html", "css"
-  		},
-  	},
   },
 
   {

@@ -18,7 +18,7 @@ M.base_30 = {
   red = "#f07178",
   baby_pink = "#606475",
   pink = "#ff5370", -- base16
-  line = "#99de1e", -- for lines like vertsplit
+  line = "#efefef", -- for lines like vertsplit
   green = "#39ff30", --base16
   vibrant_green = "#39ff30", -- custom
   nord_blue = "#8fb7ff",
@@ -33,10 +33,10 @@ M.base_30 = {
   statusline_bg = "#2b0039",
   lightbg = "#22002f",
   pmenu_bg = "#99de1e", -- custom
-  folder_bg = "#99de1e",
+  folder_bg = "#50a10f",
 }
 
-M.base_16 = {
+ M.base_16 = {
   base00 = "#1a0e25",
   base01 = "#1a0e20",
   base02 = "#1a0e20",
@@ -45,15 +45,34 @@ M.base_16 = {
   base05 = "#d3d3d3",
   base06 = "#efefef",
   base07 = "#ffffff",
-  base08 = "#ffb20f",
-  base09 = "#ffa282",
-  base0A = "#56ffff",
-  base0B = "#00e756",
-  base0C = "#ff004d",
-  base0D = "#c57bff",
-  base0E = "#ff4394",
-  base0F = "#c50bff",
+  base08 = "#d84a3d",
+  base09 = "#d75f00",
+  base0A = "#c18401",
+  base0B = "#50a12f",
+  base0C = "#0070a8",
+  base0D = "#4078f2",
+  base0E = "#a626a4",
+  base0F = "#ffb22f",
 }
+
+-- M.base_16 = {
+--   base00 = "#1e222a",
+--   base01 = "#353b45",
+--   base02 = "#3e4451",
+--   base03 = "#545862",
+--   base04 = "#565c64",
+--   base05 = "#abb2bf",
+--   base06 = "#b6bdca",
+--   base07 = "#c8ccd4",
+--   base08 = "#ffb20f",
+--   base09 = "#ffa282",
+--   base0A = "#56ffff",
+--   base0B = "#00e756",
+--   base0C = "#ff004d",
+--   base0D = "#c57bff",
+--   base0E = "#ff4394",
+--   base0F = "#c50bff",
+-- }
 
 M.polish_hl = {
   treesitter = {
