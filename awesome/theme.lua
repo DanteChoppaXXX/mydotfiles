@@ -31,7 +31,7 @@ theme.border_normal = "#2b0039"
 theme.border_focus  = "#39ff00"
 theme.border_marked = "#91231c"
 
-theme.titlebar_height = dpi(2)
+theme.titlebar_height = dpi(1)
 -- theme.titlebar_bg_normal                        = "#3f3f3f"
 -- theme.titlebar_fg_normal                        = "#282828"
 --
@@ -80,8 +80,8 @@ theme.menu_width  = dpi(100)
 --theme.bg_widget = "#cc0000"
 
 -- Define the image to load
-theme.titlebar_close_button_normal = themes_path.."../icons/awesome16.png"
-theme.titlebar_close_button_focus  = themes_path.."../icons/awesome16.png"
+theme.titlebar_close_button_normal = themes_path.."default/titlebar/close_normal.png"
+theme.titlebar_close_button_focus = themes_path.."default/titlebar/close_focus.png"
 
 
 --
@@ -108,10 +108,10 @@ theme.titlebar_floating_button_focus_active  = themes_path.."default/titlebar/fl
 
 -- theme.wallpaper = themes_path.."default/wallpapers/devil_may_cry_16-wallpaper-1366x768.jpg"
 -- theme.wallpaper = themes_path.."default/wallpapers/dmc_logo-wallpaper-1366x768.jpg"
-theme.wallpaper = themes_path.."default/wallpapers/dante_dmc-wallpaper-1366x768.jpg"
+-- theme.wallpaper = themes_path.."default/wallpapers/dante_dmc-wallpaper-1366x768.jpg"
 -- theme.wallpaper = themes_path.."default/wallpapers/dmc_2-wallpaper-1366x768.jpg"
 -- theme.wallpaper = themes_path.. "default/wallpapers/code.png"
--- theme.wallpaper = themes_path.. "default/wallpapers/Mastery.png"
+theme.wallpaper = themes_path.. "default/wallpapers/wp5765631.jpg"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path.."default/layouts/fairhw.png"
@@ -143,3 +143,4 @@ theme.icon_theme = nil
 return theme
 
 -- vim: filetype=lua:expandtab:shiftwidth=4:tabstop=8:softtabstop=4:textwidth=80
+
