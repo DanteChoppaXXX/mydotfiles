@@ -25,13 +25,19 @@ theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#2b0039"
 theme.fg_systray    = "#396000"
 
-theme.useless_gap   = dpi(0)
-theme.border_width  = dpi(2)
+theme.useless_gap   = dpi(2)
+theme.border_width  = dpi(0)
 theme.border_normal = "#2b0039"
 theme.border_focus  = "#39ff00"
 theme.border_marked = "#91231c"
 
-theme.titlebar_height = dpi(5)
+theme.titlebar_height = dpi(2)
+-- theme.titlebar_bg_normal                        = "#3f3f3f"
+-- theme.titlebar_fg_normal                        = "#282828"
+--
+-- theme.titlebar_bg_focus                         = "#2b5355"
+-- theme.titlebar_fg_focus                         = "#282828"
+
 
 -- There are other variable sets
 -- overriding the default one when
@@ -89,11 +95,11 @@ theme.titlebar_close_button_focus  = themes_path.."../icons/awesome16.png"
 -- theme.titlebar_sticky_button_normal_active = themes_path.."default/titlebar/sticky_normal_active.png"
 -- theme.titlebar_sticky_button_focus_active  = themes_path.."default/titlebar/sticky_focus_active.png"
 --
--- theme.titlebar_floating_button_normal_inactive = themes_path.."default/titlebar/floating_normal_inactive.png"
--- theme.titlebar_floating_button_focus_inactive  = themes_path.."default/titlebar/floating_focus_inactive.png"
--- theme.titlebar_floating_button_normal_active = themes_path.."default/titlebar/floating_normal_active.png"
--- theme.titlebar_floating_button_focus_active  = themes_path.."default/titlebar/floating_focus_active.png"
---
+theme.titlebar_floating_button_normal_inactive = themes_path.."default/titlebar/floating_normal_inactive.png"
+theme.titlebar_floating_button_focus_inactive  = themes_path.."default/titlebar/floating_focus_inactive.png"
+theme.titlebar_floating_button_normal_active = themes_path.."default/titlebar/floating_normal_active.png"
+theme.titlebar_floating_button_focus_active  = themes_path.."default/titlebar/floating_focus_active.png"
+
 -- theme.titlebar_maximized_button_normal_inactive = themes_path.."default/titlebar/maximized_normal_inactive.png"
 -- theme.titlebar_maximized_button_focus_inactive  = themes_path.."default/titlebar/maximized_focus_inactive.png"
 -- theme.titlebar_maximized_button_normal_active = themes_path.."default/titlebar/maximized_normal_active.png"
@@ -102,7 +108,9 @@ theme.titlebar_close_button_focus  = themes_path.."../icons/awesome16.png"
 
 -- theme.wallpaper = themes_path.."default/wallpapers/devil_may_cry_16-wallpaper-1366x768.jpg"
 -- theme.wallpaper = themes_path.."default/wallpapers/dmc_logo-wallpaper-1366x768.jpg"
-theme.wallpaper = themes_path.. "default/wallpapers/code.png"
+theme.wallpaper = themes_path.."default/wallpapers/dante_dmc-wallpaper-1366x768.jpg"
+-- theme.wallpaper = themes_path.."default/wallpapers/dmc_2-wallpaper-1366x768.jpg"
+-- theme.wallpaper = themes_path.. "default/wallpapers/code.png"
 -- theme.wallpaper = themes_path.. "default/wallpapers/Mastery.png"
 
 -- You can use your own layout icons like this:

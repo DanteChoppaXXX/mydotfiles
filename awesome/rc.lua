@@ -46,7 +46,7 @@ end
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
 beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
-beautiful.useless_gap = 2
+beautiful.useless_gap = 4
 
 
 -- This is used later as the default terminal and editor to run.
@@ -113,11 +113,11 @@ mytextclock = wibox.widget.textclock()
 
 -- Create a cpu and memory usage widget
 --myresusage = wibox.widget.resusage()
-local cpu_widget = require("awesome-wm-widgets.cpu-widget.cpu-widget")
-local batteryarc_widget = require("awesome-wm-widgets.batteryarc-widget.batteryarc")
-local brightness_widget = require("awesome-wm-widgets.brightness-widget.brightness")
-local ram_widget = require("awesome-wm-widgets.ram-widget.ram-widget")
-local volume_widget = require("awesome-wm-widgets.volume-widget.volume")
+-- local cpu_widget = require("awesome-wm-widgets.cpu-widget.cpu-widget")
+-- local batteryarc_widget = require("awesome-wm-widgets.batteryarc-widget.batteryarc")
+-- local brightness_widget = require("awesome-wm-widgets.brightness-widget.brightness")
+-- local ram_widget = require("awesome-wm-widgets.ram-widget.ram-widget")
+-- -- local volume_widget = require("awesome-wm-widgets.volume-widget.volume")
 --local todo_widget = require("awesome-wm-widgets.todo-widget.todo")
 
 -- Create a wibox for each screen and add it
@@ -222,25 +222,29 @@ awful.screen.connect_for_each_screen(function(s)
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
 	    mykeyboardlayout,
-	    cpu_widget({
-            width = 70,
-            step_width = 2,
-            step_spacing = 0,
-            color = '#434c5e'
-        }),
-	    ram_widget(),
-	    batteryarc_widget({
-            show_current_level = true,
-            arc_thickness = 2,
-        }),
-	    brightness_widget({
-            type = 'arc',
-            program = 'brightnessctl',
-            step = 2,        
-        }),
-	    volume_widget({
-            widget_type = 'arc'
-        }),
+	    -- cpu_widget({
+	    --        width = 70,
+	    --        step_width = 2,
+	    --        step_spacing = 0,
+	    --        color = '#434c5e'
+	    --    }),
+	    -- ram_widget(),
+	    -- batteryarc_widget({
+	    -- size = 20,
+	    --        show_current_level = true,
+	    --        arc_thickness = 2.5,
+	    -- low_level_color = '#e53935',
+	    -- medium_level_color = '#ff881f',
+	    -- charging_color = '#39ff30',
+	    --    }),
+	    -- brightness_widget({
+	    --        type = 'arc',
+	    --        program = 'brightnessctl',
+	    --        step = 2,        
+	    --    }),
+	    -- volume_widget({
+	    --        widget_type = 'arc'
+	    --    }),
 --	    todo_widget(),
             wibox.widget.systray(),
             mytextclock,
